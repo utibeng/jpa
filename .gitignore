@@ -35,3 +35,7 @@ build/
 .mvn/wrapper/
 
 mvnw
+/src/main/java/com/utibe/olympics/dataload/tables/athletenames/Test.java
+/src/main/resources/application_old.properties
+
+src/main/resources/application.properties

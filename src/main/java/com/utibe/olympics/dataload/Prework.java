@@ -1,6 +1,6 @@
 package com.utibe.olympics.dataload;
 
-import com.utibe.olympics.dataload.tables.AthleteNames;
+import com.utibe.olympics.dataload.tables.athletenames.AthleteNames;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -8,8 +8,6 @@ import org.springframework.core.io.ClassPathResource;
 
 import java.io.*;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -77,6 +75,5 @@ public class Prework {
     public static void main(String [] args) {
         Prework prework = new Prework();
         prework.processCsvFile("OLYMPICS_athlete_events.csv");
-        System.out.println("emilitus");
     }
 }
